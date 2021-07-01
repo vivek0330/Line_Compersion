@@ -38,8 +38,12 @@ public class LineCompersionProblem {
 	        	if (Length1 == Length2) {
 	        		System.out.println("length is same");	
 				}
-	        	else {
-	        		System.out.println("Length is not same");
+	        	else if (Length1 > Length2) {
+	        		System.out.println("Length1 is greater then Length2");
 	        	}
+	        	else {
+	        		System.out.println("Length2 is greater then Length1");
+	        	}
+	        	
 		}
 }
